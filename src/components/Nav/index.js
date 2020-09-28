@@ -9,6 +9,7 @@ export default () => {
   const location = useLocation();
 
   return (
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
@@ -17,14 +18,14 @@ export default () => {
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/portfolio"
           className={location.pathname === "/about" ? "nav-link active" : "nav-link"} >
           Portfolio
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
+          to="/contact"
           className={location.pathname === "/blog" ? "nav-link active" : "nav-link"} >
           Contact
         </Link>

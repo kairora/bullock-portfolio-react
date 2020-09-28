@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/Nav";
+import About from "./components/pages/About";
+import Portfolio from "./components/pages/Portfolio";
+import Contact from "./components/pages/Contact";
 import './App.css';
 
 function App() {
