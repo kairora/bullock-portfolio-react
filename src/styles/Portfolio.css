@@ -1,0 +1,277 @@
+/* Adding in Google Fonts */
+h1 {
+    font-family: 'Satisfy', cursive;
+}
+/* Navbar Structure */
+.navbar {
+    height: 115px;
+}
+
+
+nav h1 {
+    height: 115px;
+    padding: 32px 16px 0 16px;
+    margin: 47px;
+    /* background: -webkit-linear-gradient(white, rgb(247, 204, 255)); */
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+}
+
+.nav-link:focus {
+    background-color: #17a2b8;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; /* Gradient code is from Overstack: https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
+}
+/* Main & Card styles */
+.card {
+    margin-top: 28px;
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 71vh;
+}
+.tooltip-inner {
+    background-color: #17a2b8;
+    color: white;
+    margin: 15px;
+}
+.githubIcon {
+    color: #17a2b8;
+    position: absolute;
+    right: 7%;
+}
+.card .col-md-6, .card .col-md-12 {
+    padding: 0;
+}
+.parent {
+    position: relative;
+    
+}
+.projectrow {
+    transition: transform .2s;
+}
+.projectrow:hover {
+    transform: scale(1.3);
+}
+.child p {
+    padding-top: 10px;
+}
+.parent img {
+    object-fit: cover;
+    width: 200px;
+    height: 175px;
+    padding-bottom: 25px;
+}
+.child {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 8.881vw;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    
+}
+.child a {
+    color: white;
+    
+}
+.child p {
+    font-size: 17px;
+}
+
+.child a:hover {
+    color: pink;    
+}
+.card h1 {
+    margin-bottom: 25px;
+}
+/* Footer CSS */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer .bg-dark {
+    margin-bottom: 0;
+    height: 115px;
+}
+footer p {
+    text-align: center;
+    /* margin-top: 25px; */
+    font-size: 12px;
+    margin-bottom: 0;
+}
+#linkedin {
+    color: rgb(247, 204, 255);
+}
+#linkedin:hover, #tele:hover {
+    color: rgb(232, 131, 250)
+}
+.socialIcon {
+    text-align: center;
+    display: block; 
+    color: #17a2b8;
+    margin: 5px;
+    font-size: 35px;
+
+}
+footer section {
+    display: flex;
+}
+
+#github {
+    margin-left: auto;
+}
+#tele {
+    margin-right: auto;
+    color: rgb(247, 204, 255);
+}
+.border-info {
+    border-top-width: 5px !important;;
+}
+.col-md-9 {
+    padding: 0px;
+    margin-left:16px;
+}
+/* Media Queries for Responsive Web Design - 768px Max-Width */
+@media (max-width: 1200px) {
+    .child {
+        width: 16.6vw;
+        margin-left: 5.7vw;
+    }
+}
+@media (max-width: 1025px) {
+    .child {
+        width: 19.5vw;
+        margin-left: 4.2vw;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        margin: 15px;
+        max-width: 100%;
+    }
+
+    .col-md-12 {
+        margin-top: 9px;
+    }
+
+    nav h1 {
+        margin: 0
+    }
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar ul{
+        flex-direction: row;
+    }
+    .navbar-brand {
+        padding-top: 0;
+    }
+    .navbar ul > li {
+        margin-left: 12px;
+    }
+    .child {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 2.1vw;
+        width: 200px;
+        height: 45px;
+        align-items: center;
+    }
+} 
+
+
+@media (max-width: 640px) {
+    .card {
+        margin: 15px;
+        max-width: 734px;
+    }
+    .col-md-12 {
+        margin-top: 9px;
+    }
+    nav ul {
+        margin-left: auto;
+    }
+    nav h1 {
+        text-align: center;
+    }
+    .navbar-brand {
+        width: 100%;
+        padding-top: 0;
+        margin-right: 0;
+    }
+    .navbar ul{
+        margin-right: auto;
+    }
+    .navbar {
+        padding: 0;
+        height: 170px;
+    } 
+    .parent img {
+        object-fit: cover;
+        width: 400px;
+        height: 275px;
+        padding-bottom: 25px;
+    }
+    .child {
+        position: absolute;
+        margin-top: 199px;
+        margin-left: 13.2vw;
+        width: 400px;
+        height: 45px;
+        align-items: center;
+    }
+    footer {
+        position: sticky;
+    }  
+    footer {
+        position: sticky;
+    }     
+}
+
+
+@media (max-width: 481px) {
+    .child {
+        width: 83.5vw;
+    margin-left: 1vw;
+    }
+}
+@media (max-width: 425px) {
+    .child {
+        margin-left: 0px;
+        width: inherit;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    }
+}
+@media (max-width: 375px) {
+    .child {
+        margin-left: 0px;
+        width: inherit;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .child {
+        width: inherit;
+    }
+}

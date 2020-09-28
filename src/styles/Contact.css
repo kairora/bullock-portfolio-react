@@ -1,0 +1,152 @@
+/* Adding in Google Fonts */
+h1 {
+    font-family: 'Satisfy', cursive;
+}
+.navbar {
+    height: 115px;
+}
+
+nav h1 {
+    height: 115px;
+    padding: 32px 16px 0 16px;
+    margin: 47px;
+}
+.nav-link:focus {
+    background-color: #17a2b8;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#exampleFormControlTextarea1 {
+    height: 200px;
+}
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; /* Gradient code is from Overstack: https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
+}
+.card {
+    margin: 48px;
+    max-width: 591px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    width: 100px;
+}    
+/* Footer CSS */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer .bg-dark {
+    margin-bottom: 0;
+    height: 115px;
+}
+footer p {
+    text-align: center;
+    /* margin-top: 25px; */
+    font-size: 12px;
+    margin-bottom: 0;
+}
+#linkedin {
+    color: rgb(247, 204, 255);
+}
+#linkedin:hover, #tele:hover {
+    color: rgb(232, 131, 250)
+}
+.socialIcon {
+    text-align: center;
+    display: block; 
+    color: #17a2b8;
+    margin: 5px;
+    font-size: 35px;
+
+}
+footer section {
+    display: flex;
+}
+
+#github {
+    margin-left: auto;
+}
+#tele {
+    margin-right: auto;
+    color: rgb(247, 204, 255);
+}
+.border-info {
+    border-top-width: 5px !important;;
+
+}
+.col-md-9 {
+    padding: 0px;
+    margin-left:16px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 15px;
+        max-width: 100%;
+    }
+    .card h1 {
+        margin-bottom: 25px;
+    }
+    .col-md-12 {
+        margin-top: 9px;
+    }
+
+    nav h1 {
+        margin: 0
+    }
+
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar ul{
+        flex-direction: row;
+    }
+    .navbar-brand {
+        padding-top: 0;
+    }
+    .navbar ul > li {
+        margin-left: 12px;
+    }
+} 
+
+@media (max-width: 640px) {
+    .card {
+        margin: 15px;
+        max-width: 734px;
+    }
+    .col-md-12 {
+        margin-top: 9px;
+    } 
+    
+
+    nav ul {
+        margin-left: auto;
+    }
+
+    nav h1 {
+        text-align: center;
+    }
+    .navbar-brand {
+        width: 100%;
+        padding-top: 0;
+        margin-right: 0;
+    }
+    .navbar ul{
+        margin-right: auto;
+    }
+    .navbar {
+        padding: 0;
+        height: 170px;
+    }    
+    footer {
+        position: sticky;
+    } 
+}
