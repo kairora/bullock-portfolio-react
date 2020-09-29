@@ -1,5 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/About.css";
+import bootStrap from "../../images/bootstrap.png";
+import cssHtml from "../../images/css-html.png";
+import JS from "../../images/javascript.png";
+import expressjs from "../../images/expressjs.png";
+import nodejs from "../../images/nodejs.png";
+import mongodb from "../../images/mongdb.png";
+import divi from "../../images/divi.jpg";
+import wordpress from "../../images/wordpress.png";
+import react from "../../images/react.png";
+import Brianna from "../../images/brianna-photo.jpg";
 
 
 export default function () {
@@ -17,55 +27,55 @@ export default function () {
     {
       name: "CSS/HTML",
       link: "https://www.w3schools.com/",
-      image: "../../assets/photos/css-html.png",
+      image: cssHtml,
       alt: "HTML and CSS Logo by daPhyre"
     },
     {
       name: "JavaScript",
       link: "https://www.w3schools.com/js/default.asp",
-      image: "../../assets/photos/javascript.png",
+      image: JS,
       alt: "JavaScript Logo by Nikotaf"
     },
     {
       name: "Express",
       link: "https://expressjs.com/",
-      image: "../../assets/photos/expressjs.png",
+      image: expressjs,
       alt: "Express.js Logo"
     },
     {
       name: "Node.js",
       link: "https://nodejs.org/en/",
-      image: "../../assets/photos/nodejs.png",
+      image: nodejs,
       alt: "Nodejs Logo"
     },
     {
       name: "MongoDB",
       link: "https://www.mongodb.com/",
-      image: "../../assets/photos/mongdb.png",
+      image: mongodb,
       alt: "MongoDB Logo by MongoDB, Inc."
     },
     {
       name: "Bootstrap",
       link: "https://getbootstrap.com/",
-      image: "../../assets/photos/bootstrap.png",
+      image: bootStrap,
       alt: "Bootstrap Logo"
     },
     {
       name: "WordPress",
       link: "https://wordpress.org/",
-      image: "../../assets/photos/wordpress.png",
+      image: wordpress,
       alt: "Wordpress Logo"
     },
     {
       name: "Divi",
       link: "https://www.elegantthemes.com/gallery/divi/",
-      image: "../../assets/photos/divi.jpg",
+      image: divi,
       alt: "Divi Logo"
     },
     {
       name: "React",
       link: "https://reactjs.org/",
-      image: "../../assets/photos/react.png",
+      image: react,
       alt: "React Logo"
     }
   ]
@@ -73,8 +83,8 @@ export default function () {
   return (
     <>
       <div className="col-md-12">
-        <img src="../../../assets/photos/brianna-photo.jpg" alt="Brianna's Professional Shot" id="briphoto"
-          className="img-fluid float-left mr-2" />
+        <img src={Brianna} alt="Brianna's Professional Shot" id="briphoto"
+          className="img-fluid float-left mr-2" type="image/jpg"/>
         <p>Hello! I'm am an alumna of the prestigious University of Chicago where, with its
         diverse curriculum, I was afforded the opportunity to dive deep into a multitude
         of experiences with foreign language. My first foreign language studied,
@@ -110,4 +120,3 @@ export default function () {
     </>
   );
 }
-
