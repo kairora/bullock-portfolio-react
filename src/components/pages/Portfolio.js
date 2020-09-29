@@ -5,7 +5,10 @@ import Card from "../Card";
 
 export default function() {
   return (
-    <Card>
+    <Card style={
+      
+      {minWidth: "90vw" }
+      }>
       <Projects />
     </Card>
 

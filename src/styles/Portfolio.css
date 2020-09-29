@@ -16,6 +16,11 @@
     position: absolute;
     right: 7%;
 }
+/* .card {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 90vw;
+} */
 .card .col-md-6, .card .col-md-12 {
     padding: 0;
 }

@@ -11,16 +11,12 @@ h5 {
     text-decoration: underline;
     margin: 0;
 }
-/* Main & Card styles */
-.card {
-    max-width: 55vw;
-    margin-left: auto;
-    margin-right: auto;
+
+h1 {
+    transition: transform .2s; 
 }
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 60vh;
+h1:hover {
+    transform: scale(1.03);
 }
 .card h1 {
     margin-bottom: 25px;

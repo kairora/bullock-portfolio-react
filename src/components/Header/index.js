@@ -13,21 +13,21 @@ export default () => {
       </Link>
       <ul className="nav">
         <li className="nav-item">
-          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
+          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} ><div className="heart-shape"></div>
             About
           </Link>
         </li>
         <li className="nav-item">
           <Link
             to="/portfolio"
-            className={location.pathname === "/about" ? "nav-link active" : "nav-link"} >
+            className={location.pathname === "/about" ? "nav-link active" : "nav-link"} > <div className="heart-shape"></div>
             Portfolio
           </Link>
         </li>
         <li className="nav-item">
           <Link
             to="/contact"
-            className={location.pathname === "/blog" ? "nav-link active" : "nav-link"} >
+            className={location.pathname === "/blog" ? "nav-link active" : "nav-link"} > <div className="heart-shape"></div>
             Contact
           </Link>
         </li>

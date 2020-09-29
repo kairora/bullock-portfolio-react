@@ -8,13 +8,27 @@ header h1 {
   padding: 12px;
   text-align: center;
 }
+.nav-link {
+  color: white;
+  font-weight: bold;
+  text-shadow: -1px 1px 2px #000,
+          1px 1px 2px #000,
+          1px -1px 0 #000,
+          -1px -1px 0 #000;;
+}
 .nav-link:focus {
   background-color: #17a2b8;
   color: white;
 }
 .nav-link:hover {
   background-color: #17a2b8;
-  color: white;
+  border-radius: 100%;
+  color: pink;
+  font-weight: 600;
+  text-shadow: -1px 1px 2px #000,
+        1px 1px 2px #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;;
 }
 .nav {
   justify-content: space-between;
@@ -36,11 +50,24 @@ body {
   max-width: 55vw;
   margin-left: auto;
   margin-right: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .flex-container {
   display: flex;
   flex-direction: column;
   min-height: 60vh;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #073a42;
+  background-color:  rgba(236, 143, 253, 0.726);
+}
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #F5F5F5
+}
+::-webkit-scrollbar-thumb {
+  background-color: #468e99;
 }
 
 /* Footer CSS */
@@ -65,7 +92,6 @@ footer p {
 }
 .socialIcon {
   text-align: center;
-  /* display: block;  */
   color: #17a2b8;
   margin: 5px;
   font-size: 35px;
@@ -81,3 +107,7 @@ footer section {
   margin-right: auto;
   color: rgb(247, 204, 255);
 }
+
+
+
+
