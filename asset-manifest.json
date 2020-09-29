@@ -1,25 +1,44 @@
 {
   "files": {
     "main.css": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css",
-    "main.js": "/bullock-portfolio-react/static/js/main.83552606.chunk.js",
-    "main.js.map": "/bullock-portfolio-react/static/js/main.83552606.chunk.js.map",
+    "main.js": "/bullock-portfolio-react/static/js/main.9f638abc.chunk.js",
+    "main.js.map": "/bullock-portfolio-react/static/js/main.9f638abc.chunk.js.map",
     "runtime-main.js": "/bullock-portfolio-react/static/js/runtime-main.c3a454e5.js",
     "runtime-main.js.map": "/bullock-portfolio-react/static/js/runtime-main.c3a454e5.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c72ef2e5.chunk.js": "/bullock-portfolio-react/static/js/2.c72ef2e5.chunk.js",
-    "static/js/2.c72ef2e5.chunk.js.map": "/bullock-portfolio-react/static/js/2.c72ef2e5.chunk.js.map",
+    "static/js/2.fdfd64e2.chunk.js": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js",
+    "static/js/2.fdfd64e2.chunk.js.map": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js.map",
     "index.html": "/bullock-portfolio-react/index.html",
-    "precache-manifest.19bb2b7e9805e98f608916d58512b6ca.js": "/bullock-portfolio-react/precache-manifest.19bb2b7e9805e98f608916d58512b6ca.js",
+    "precache-manifest.f6a04cb58f07f361c7bfb8b88f55bc62.js": "/bullock-portfolio-react/precache-manifest.f6a04cb58f07f361c7bfb8b88f55bc62.js",
     "service-worker.js": "/bullock-portfolio-react/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.230550b8.chunk.css.map": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css.map",
-    "static/js/2.c72ef2e5.chunk.js.LICENSE.txt": "/bullock-portfolio-react/static/js/2.c72ef2e5.chunk.js.LICENSE.txt"
+    "static/js/2.fdfd64e2.chunk.js.LICENSE.txt": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js.LICENSE.txt",
+    "static/media/app-img.PNG": "/bullock-portfolio-react/static/media/app-img.3f258810.PNG",
+    "static/media/bootstrap.png": "/bullock-portfolio-react/static/media/bootstrap.e9fcb24d.png",
+    "static/media/brianna-photo.jpg": "/bullock-portfolio-react/static/media/brianna-photo.150eb9d3.jpg",
+    "static/media/code-quiz.PNG": "/bullock-portfolio-react/static/media/code-quiz.c48e8ecc.PNG",
+    "static/media/covid-proj.PNG": "/bullock-portfolio-react/static/media/covid-proj.a877aca0.PNG",
+    "static/media/css-html.png": "/bullock-portfolio-react/static/media/css-html.363dbb34.png",
+    "static/media/divi.jpg": "/bullock-portfolio-react/static/media/divi.7dfd23a0.jpg",
+    "static/media/expressjs.png": "/bullock-portfolio-react/static/media/expressjs.98ff4822.png",
+    "static/media/javascript.png": "/bullock-portfolio-react/static/media/javascript.7abbd9a5.png",
+    "static/media/mongdb.png": "/bullock-portfolio-react/static/media/mongdb.aecba3e9.png",
+    "static/media/mrksichgrp.PNG": "/bullock-portfolio-react/static/media/mrksichgrp.2d99a5b1.PNG",
+    "static/media/nodejs.png": "/bullock-portfolio-react/static/media/nodejs.521444a2.png",
+    "static/media/pw-generator.PNG": "/bullock-portfolio-react/static/media/pw-generator.94551fbd.PNG",
+    "static/media/react.png": "/bullock-portfolio-react/static/media/react.d9bf4bf5.png",
+    "static/media/team-tiles.PNG": "/bullock-portfolio-react/static/media/team-tiles.282c68f1.PNG",
+    "static/media/travelnstyle.PNG": "/bullock-portfolio-react/static/media/travelnstyle.553345ca.PNG",
+    "static/media/weather-dashboard.PNG": "/bullock-portfolio-react/static/media/weather-dashboard.5b86f2ad.PNG",
+    "static/media/wordpress.png": "/bullock-portfolio-react/static/media/wordpress.4a619809.png",
+    "static/media/workday-scheduler.PNG": "/bullock-portfolio-react/static/media/workday-scheduler.772f157d.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.c3a454e5.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c72ef2e5.chunk.js",
+    "static/js/2.fdfd64e2.chunk.js",
     "static/css/main.230550b8.chunk.css",
-    "static/js/main.83552606.chunk.js"
+    "static/js/main.9f638abc.chunk.js"
   ]
 }
