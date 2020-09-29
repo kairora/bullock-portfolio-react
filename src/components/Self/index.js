@@ -83,7 +83,7 @@ export default function () {
   return (
     <>
       <div className="col-md-12">
-        <img src={Brianna} alt="Brianna's Professional Shot" id="briphoto"
+        <img src={Brianna} alt="Brianna's Professional Shot" id="briphoto" width="200px"
           className="img-fluid float-left mr-2" type="image/jpg"/>
         <p>Hello! I'm am an alumna of the prestigious University of Chicago where, with its
         diverse curriculum, I was afforded the opportunity to dive deep into a multitude

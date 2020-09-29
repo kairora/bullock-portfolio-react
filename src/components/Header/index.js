@@ -19,15 +19,15 @@ export default () => {
         </li>
         <li className="nav-item">
           <Link
-            to="/portfolio"
-            className={location.pathname === "/about" ? "nav-link active" : "nav-link"} > <div className="heart-shape"></div>
+            to="/bullock-portfolio"
+            className={location.pathname === "/bullock-portfolio" ? "nav-link active" : "nav-link"} > <div className="heart-shape"></div>
             Portfolio
           </Link>
         </li>
         <li className="nav-item">
           <Link
-            to="/contact"
-            className={location.pathname === "/blog" ? "nav-link active" : "nav-link"} > <div className="heart-shape"></div>
+            to="/bullock-contact"
+            className={location.pathname === "/bullock-contact" ? "nav-link active" : "nav-link"} > <div className="heart-shape"></div>
             Contact
           </Link>
         </li>
