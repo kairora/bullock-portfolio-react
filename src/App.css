@@ -121,9 +121,6 @@ footer section {
   font-weight: 600;
   font-size: 25px;
 }
-.logcol .leftlogo, .leftlogo span {
-  /* margin-left: 200px; */
-}
 .logcol span:hover {
   color: pink;
   font-weight: 600;

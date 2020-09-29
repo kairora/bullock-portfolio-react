@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/About.css";
-import { Link } from "react-router-dom";
+
 
 export default function () {
   const [skills, setSkills] = useState([]);
