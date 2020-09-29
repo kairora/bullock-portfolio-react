@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css",
-    "main.js": "/bullock-portfolio-react/static/js/main.9f638abc.chunk.js",
-    "main.js.map": "/bullock-portfolio-react/static/js/main.9f638abc.chunk.js.map",
+    "main.css": "/bullock-portfolio-react/static/css/main.bb5b8f3e.chunk.css",
+    "main.js": "/bullock-portfolio-react/static/js/main.b759c71e.chunk.js",
+    "main.js.map": "/bullock-portfolio-react/static/js/main.b759c71e.chunk.js.map",
     "runtime-main.js": "/bullock-portfolio-react/static/js/runtime-main.c3a454e5.js",
     "runtime-main.js.map": "/bullock-portfolio-react/static/js/runtime-main.c3a454e5.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.fdfd64e2.chunk.js": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js",
     "static/js/2.fdfd64e2.chunk.js.map": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js.map",
     "index.html": "/bullock-portfolio-react/index.html",
-    "precache-manifest.f6a04cb58f07f361c7bfb8b88f55bc62.js": "/bullock-portfolio-react/precache-manifest.f6a04cb58f07f361c7bfb8b88f55bc62.js",
+    "precache-manifest.0f29fda60effcf062439939bc3119162.js": "/bullock-portfolio-react/precache-manifest.0f29fda60effcf062439939bc3119162.js",
     "service-worker.js": "/bullock-portfolio-react/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.230550b8.chunk.css.map": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css.map",
+    "static/css/main.bb5b8f3e.chunk.css.map": "/bullock-portfolio-react/static/css/main.bb5b8f3e.chunk.css.map",
     "static/js/2.fdfd64e2.chunk.js.LICENSE.txt": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js.LICENSE.txt",
     "static/media/app-img.PNG": "/bullock-portfolio-react/static/media/app-img.3f258810.PNG",
     "static/media/bootstrap.png": "/bullock-portfolio-react/static/media/bootstrap.e9fcb24d.png",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.c3a454e5.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.fdfd64e2.chunk.js",
-    "static/css/main.230550b8.chunk.css",
-    "static/js/main.9f638abc.chunk.js"
+    "static/css/main.bb5b8f3e.chunk.css",
+    "static/js/main.b759c71e.chunk.js"
   ]
 }

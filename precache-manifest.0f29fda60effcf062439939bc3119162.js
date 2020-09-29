@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28762da9cbd9c4f232ed19451d7a0648",
+    "revision": "cb91a6a062c9eb57139d7a4b67d48157",
     "url": "/bullock-portfolio-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "fd89b2d6ebca02c05560",
-    "url": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css"
+    "revision": "1941533cd1fa427dca97",
+    "url": "/bullock-portfolio-react/static/css/main.bb5b8f3e.chunk.css"
   },
   {
     "revision": "e27c8cd35b1dcd2ef827",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bullock-portfolio-react/static/js/2.fdfd64e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd89b2d6ebca02c05560",
-    "url": "/bullock-portfolio-react/static/js/main.9f638abc.chunk.js"
+    "revision": "1941533cd1fa427dca97",
+    "url": "/bullock-portfolio-react/static/js/main.b759c71e.chunk.js"
   },
   {
     "revision": "1979ed438ac7bf5619c2",
