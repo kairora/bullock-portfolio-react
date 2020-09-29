@@ -73,7 +73,7 @@ export default function () {
   return (
     <>
       <div className="col-md-12">
-        <img {require("../../../assets/photos/brianna-photo.jpg")} alt="Brianna's Professional Shot" id="briphoto"
+        <img src="../../../assets/photos/brianna-photo.jpg" alt="Brianna's Professional Shot" id="briphoto"
           className="img-fluid float-left mr-2" />
         <p>Hello! I'm am an alumna of the prestigious University of Chicago where, with its
         diverse curriculum, I was afforded the opportunity to dive deep into a multitude

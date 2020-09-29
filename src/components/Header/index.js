@@ -8,12 +8,12 @@ export default () => {
 
   return (
     <header>
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/bullock-portfolio-react">
           <h1 className="bg-info text-white">Brianna Bullock</h1>
       </Link>
       <ul className="nav">
         <li className="nav-item">
-          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} ><div className="heart-shape"></div>
+          <Link to="/bullock-portfolio-react" className={location.pathname === "/bullock-portfolio-react" ? "nav-link active" : "nav-link"} ><div className="heart-shape"></div>
             About
           </Link>
         </li>

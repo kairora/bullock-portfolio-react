@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <Route exact path="/bullock-portfolio-react" component={About} />
+      <Route exact path="/" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
       <Footer />  
