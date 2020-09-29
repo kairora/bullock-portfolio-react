@@ -3,11 +3,15 @@ import "../../styles/About.css";
 import Card from "../Card"
 import Resume from "../Resume";
 
+
 export default function() {
+
   return (
-    <Card>
-      <Resume />
-    </Card>
+    <>
+      <Card>
+        <Resume />
+      </Card>
+    </>
   );
 }
 

@@ -16,11 +16,6 @@
     position: absolute;
     right: 7%;
 }
-/* .card {
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 90vw;
-} */
 .card .col-md-6, .card .col-md-12 {
     padding: 0;
 }
@@ -67,17 +62,29 @@
     margin-bottom: 25px;
 }
 
-/* Media Queries for Responsive Web Design - 768px Max-Width */
+/* Media Queries for Responsive Web Design */
+@media (max-width: 2400px) {
+    .child {
+        width: 200px;
+        margin-left: 12.5vw;
+    }
+}
+@media (max-width: 1920px) {
+    .child {
+        width: 200px;
+        margin-left: 11.4vw;
+    }
+}
 @media (max-width: 1200px) {
     .child {
         width: 16.6vw;
-        margin-left: 5.7vw;
+        margin-left: 8.1vw;
     }
 }
 @media (max-width: 1025px) {
     .child {
         width: 19.5vw;
-        margin-left: 4.2vw;
+        margin-left: 6.4vw;
     }
 }
 @media (max-width: 768px) {
@@ -108,9 +115,8 @@
         margin-left: 12px;
     }
     .child {
-        position: absolute;
         margin-top: 120px;
-        margin-left: 2.1vw;
+        margin-left: 3.4vw;
         width: 200px;
         height: 45px;
         align-items: center;
@@ -119,31 +125,6 @@
 
 
 @media (max-width: 640px) {
-    .card {
-        margin: 15px;
-        max-width: 734px;
-    }
-    .col-md-12 {
-        margin-top: 9px;
-    }
-    nav ul {
-        margin-left: auto;
-    }
-    nav h1 {
-        text-align: center;
-    }
-    .navbar-brand {
-        width: 100%;
-        padding-top: 0;
-        margin-right: 0;
-    }
-    .navbar ul{
-        margin-right: auto;
-    }
-    .navbar {
-        padding: 0;
-        height: 170px;
-    } 
     .parent img {
         object-fit: cover;
         width: 400px;
@@ -151,26 +132,21 @@
         padding-bottom: 25px;
     }
     .child {
-        position: absolute;
+
         margin-top: 199px;
-        margin-left: 13.2vw;
+        margin-left: 16.2vw;
         width: 400px;
         height: 45px;
         align-items: center;
     }
-    footer {
-        position: sticky;
-    }  
-    footer {
-        position: sticky;
-    }     
+
 }
 
 
 @media (max-width: 481px) {
     .child {
-        width: 83.5vw;
-    margin-left: 1vw;
+        margin-left: 0px;
+        width: inherit;
     }
 }
 @media (max-width: 425px) {
@@ -178,21 +154,11 @@
         margin-left: 0px;
         width: inherit;
     }
-    .card {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 25px;
-    }
 }
 @media (max-width: 375px) {
     .child {
         margin-left: 0px;
         width: inherit;
-    }
-    .card {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 25px;
     }
 }
 @media (max-width: 320px) {

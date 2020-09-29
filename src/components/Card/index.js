@@ -1,5 +1,6 @@
 import React from "react";
-import Resume from "../Resume"
+
+import { styledPortCard } from "../pages/Portfolio"
 
 
 export default function (props) {
@@ -7,7 +8,7 @@ export default function (props) {
     <>
       <div className="row">
         <div className="col-md-6">
-          <div className="card flex-container">
+          <div className="card flex-container" style={styledPortCard}>
             {props.children}
           </div>
         </div>

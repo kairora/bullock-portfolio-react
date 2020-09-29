@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Contact.css";
 import Card from "../Card";
-import { Link, useLocation } from "react-router-dom";
+
 
 export default function () {
   return (
@@ -23,7 +23,7 @@ export default function () {
               <textarea className="form-control" id="formMessage" rows="3"></textarea>
             </div>
           </form>
-          <Link to="mailto:brianna.bullock16@gmail.com" className="btn btn-info rounded-0">Submit</Link>
+          <a href="mailto:brianna.bullock16@gmail.com" className="btn btn-info rounded-0">Submit</a>
         </div>
       </main>
     </Card>

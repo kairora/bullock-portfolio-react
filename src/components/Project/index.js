@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faWordpress } from '@fortawesome/free-brands-svg-icons';
-import { Link } from "react-router-dom";
 import "../../styles/Portfolio.css";
 
 
@@ -44,7 +43,7 @@ export default function () {
     {
       name: "Mrksich Group Site",
       deployHREF: "https://www.mrksichgroup.northwestern.edu/",
-      githubHREF: "",
+      githubHREF: "#",
       image: "../../assets/photos/mrksichgrp.PNG",
       toggleTitle: "A website representative of Northwestern University’s Vice President of Research, Milan Mrksich’s VPR role, laboratory facilities and equipment, research projects, and lab members/administrative staff",
       gh: false
@@ -59,8 +58,8 @@ export default function () {
     },
     {
       name: "Javascript Code Quiz",
-      deployHREF: "https://kairora.github.io/code-quiz-hw-4/",
-      githubHREF: "https://github.com/kairora/code-quiz-hw-4/tree/master/Assets",
+      deployHREF: "https://kairora.github.io/javascript-code-quiz/",
+      githubHREF: "https://github.com/kairora/javascript-code-quiz/tree/master/Assets",
       image: "../../assets/photos/code-quiz.PNG",
       toggleTitle: "A simple JavaScript related quiz! Be careful! Wrong answers lose time",
       gh: true
@@ -93,25 +92,25 @@ export default function () {
   return(
     <>
       <div className="card-body">
-        <h1 className="card-title text-info border-bottom p-4">Portfolio <Link target="_blank" rel="noopener" className="githubIcon colortip" data-toggle="tooltip" data-placement="bottom" title="Brianna's GitHub" to="https://github.com/kairora">
+        <h2 className="card-title text-info border-bottom p-4">Portfolio <a target="blank" rel="noopener" className="githubIcon colortip" data-toggle="tooltip" data-placement="bottom" title="Brianna's GitHub" href="https://github.com/kairora">
         <FontAwesomeIcon icon={faGithub} /> 
-        </Link></h1>
+        </a></h2>
         <div className="row">
           {projects
             .map(project => 
               <div className="col-md-4 text-center align-center">
                 <div className="row projectrow">
-                  <div className="col-md-12 parent">
-                    <div className="child bg-info text-white">
+                  <div className="col-md-12 parent" position="relative">
+                    <div className="child bg-info text-white" position="absolute">
                       <p>
-                        <Link target="blank" rel="noopener" to={project.deployHREF}>{project.name}</Link> | 
-                        <Link target="blank" rel="noopener" to={project.githubHREF}>
+                        <a target="blank" rel="noopener" href={project.deployHREF}>{project.name}</a> | 
+                        <a target="blank" rel="noopener" href={project.githubHREF}>
                           {project.gh ? <FontAwesomeIcon icon={faGithub} /> : <FontAwesomeIcon icon={faWordpress}/>} 
-                        </Link>
+                        </a>
                       </p>
                     </div>
                     <a target="blank" rel="noopener" href={project.deployHREF}>
-                      <img src={project.image} alt={project.name} className="img-fluid colortip" data-toggle="tooltip" data-placement="left" title={project.toggleTitle} />
+                      <img src={project.image} alt={project.name} width="200" className="colortip" data-toggle="tooltip" data-placement="left" title={project.toggleTitle} />
                     </a>
                   </div>
                 </div>
