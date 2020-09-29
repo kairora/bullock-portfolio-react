@@ -73,7 +73,7 @@ export default function () {
   return (
     <>
       <div className="col-md-12">
-        <img src="../../assets/photos/brianna-photo.jpg" alt="Brianna's Professional Shot" id="briphoto"
+        <img src="../../../assets/photos/brianna-photo.jpg" alt="Brianna's Professional Shot" id="briphoto"
           className="img-fluid float-left mr-2" />
         <p>Hello! I'm am an alumna of the prestigious University of Chicago where, with its
         diverse curriculum, I was afforded the opportunity to dive deep into a multitude
@@ -98,8 +98,8 @@ export default function () {
         {skills
         .map(skill =>
           <div className="col-md-1 logcol">
-            <a target="_blank" rel="noopener" href={skill.link} className="leftlogo">
-              <img src={skill.image} alt={skill.alt}
+            <a target="blank" rel="noopener" href={skill.link} className="leftlogo">
+              <img src={skill.image} alt={skill.alt} key={skill.alt}
                 className="logoimg" /> 
               <span>{skill.name}</span>
             </a>
