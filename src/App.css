@@ -143,5 +143,10 @@ footer section {
 span {
   display: block;
 }
+.tooltip-inner {
+  background-color: #17a2b8 !important;
+  color: white !important;
+  margin: 15px!important;
+}
 
 

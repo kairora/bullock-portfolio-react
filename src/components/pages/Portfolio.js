@@ -8,11 +8,16 @@ export const styledPortCard = {
   marginRight: "auto",
   minWidth: "100vw" 
 }
+export const tooltipper = {
+    backgroundColor: "#17a2b8 !important;",
+    color: "white !important;",
+    margin: "15px!important;",
+}
 
 export default function() {
 
   return (
-    <Card style={styledPortCard}>
+    <Card style={styledPortCard, tooltipper}>
       <Projects />
     </Card>
 

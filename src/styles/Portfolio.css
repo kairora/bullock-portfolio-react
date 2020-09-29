@@ -6,11 +6,7 @@
     margin-right: auto;
     max-height: 71vh;
 }
-.tooltip-inner {
-    background-color: #17a2b8 !important;
-    color: white !important;
-    margin: 15px!important;
-}
+
 .githubIcon {
     color: #17a2b8;
     position: absolute;
@@ -60,6 +56,11 @@
 }
 .card h1 {
     margin-bottom: 25px;
+}
+.tooltip-inner {
+    background-color: #17a2b8 !important;
+    color: white !important;
+    margin: 15px!important;
 }
 
 /* Media Queries for Responsive Web Design */

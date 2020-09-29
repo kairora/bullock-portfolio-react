@@ -10,6 +10,8 @@ import codeQuiz from "../../images/code-quiz.PNG";
 import travelnstyle from "../../images/travelnstyle.PNG";
 import eatDaBurger from "../../images/app-img.PNG";
 import pwGen from "../../images/pw-generator.PNG";
+import { tooltipper } from '../pages/Portfolio';
+
 
 
 
@@ -120,7 +122,7 @@ export default function () {
                       </p>
                     </div>
                     <a target="blank" rel="noopener" href={project.deployHREF}>
-                      <img src={project.image} alt={project.name} width="200" className="colortip" data-toggle="tooltip" data-placement="left" title={project.toggleTitle} />
+                      <img src={project.image} alt={project.name} width="200" className="colortip" data-toggle="tooltip" data-placement="left" title={project.toggleTitle} style={tooltipper} />
                     </a>
                   </div>
                 </div>
