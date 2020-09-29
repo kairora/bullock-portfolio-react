@@ -1,8 +1,8 @@
-#exampleFormControlTextarea1 {
+#formMessage {
     height: 200px;
 }
 .card {
-    max-width: 55vw;
+    max-width: 35vw;
     margin-left: auto;
     margin-right: auto;
 }

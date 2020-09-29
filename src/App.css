@@ -2,8 +2,11 @@
 header {
   display: inline-flex !important;
 }
-nav h1 {
+header h1 {
   font-family: 'Satisfy', cursive;
+  height: 70px;
+  padding: 12px;
+  text-align: center;
 }
 .nav-link:focus {
   background-color: #17a2b8;
@@ -19,7 +22,7 @@ nav h1 {
 }
 .navbar-brand {
   justify-content: space-between;
-  padding: 0;
+  padding: 0 !important;
 }
 
 body {
@@ -27,6 +30,7 @@ body {
   min-height: 400px;
   margin-bottom: 100px;
   clear: both;
+  width: 90vw;
 }
 .card {
   max-width: 55vw;
