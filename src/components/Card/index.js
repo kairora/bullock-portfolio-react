@@ -2,13 +2,13 @@ import React from "react";
 import Resume from "../Resume"
 
 
-export default function () {
+export default function (props) {
   return (
     <>
       <div className="row">
         <div className="col-md-6">
-          <div className="card">
-            <Resume/>
+          <div className="card flex-container">
+            {props.children}
           </div>
         </div>
       </div>

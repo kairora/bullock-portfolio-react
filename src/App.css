@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* Navbar Structure */
+header {
+  display: inline-flex !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav h1 {
+  font-family: 'Satisfy', cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link:focus {
+  background-color: #17a2b8;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-link:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+.nav {
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+.navbar-brand {
+  justify-content: space-between;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+.card {
+  max-width: 55vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+}
+
+/* Footer CSS */
+footer {
+  position: fixed;
+  bottom: 0;
+}
+footer .bg-dark {
+  margin-bottom: 0;
+
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+#linkedin {
+  color: rgb(247, 204, 255);
+}
+#linkedin:hover, #tele:hover {
+  color: rgb(232, 131, 250)
+}
+.socialIcon {
+  text-align: center;
+  /* display: block;  */
+  color: #17a2b8;
+  margin: 5px;
+  font-size: 35px;
+}
+footer section {
+  display: flex;
+}
+
+#github {
+  margin-left: auto;
+}
+#tele {
+  margin-right: auto;
+  color: rgb(247, 204, 255);
 }

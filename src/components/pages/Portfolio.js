@@ -1,10 +1,14 @@
 import React from "react";
 import "../../styles/Portfolio.css";
-import Project from "../Project";
+import Projects from "../Project";
+import Card from "../Card";
 
 export default function() {
   return (
-    <Project />
+    <Card>
+      <Projects />
+    </Card>
+
   );
 }
 

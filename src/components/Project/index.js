@@ -98,7 +98,7 @@ export default function () {
                 <div className="child bg-info text-white">
                   <p>
                     <a target="blank" rel="noopener" href={project.deployHREF}>{project.name}</a> | 
-                              <a target="blank" rel="noopener" href={project.githubHREF}>
+                    <a target="blank" rel="noopener" href={project.githubHREF}>
                       {project.gh ? <FontAwesomeIcon icon={faGithub} /> : <FontAwesomeIcon icon={faWordpress}/>} 
                     </a>
                   </p>

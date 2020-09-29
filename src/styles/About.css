@@ -1,4 +1,3 @@
-/* Adding in Google Fonts */
 h1, h2 {
     font-family: 'Satisfy', cursive;
 }
@@ -12,34 +11,16 @@ h5 {
     text-decoration: underline;
     margin: 0;
 }
-/* Navbar Structure */
-.navbar {
-    height: 115px;
-}
-nav h1 {
-    height: 115px;
-    padding: 32px 16px 0 16px;
-    margin: 47px;
-}
-.nav-link:focus {
-    background-color: #17a2b8;
-    color: white;
-}
-.nav-link:hover {
-    background-color: #17a2b8;
-    color: white;
-}
-
-/* Body background gradient. The Gradient code source is from Overstack: https://stackoverflow.com/questions/2869212 css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats */
-body {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgb(204, 238, 255)), to(rgb(247, 204, 255))) fixed; 
-}
 /* Main & Card styles */
 .card {
-    margin-top: 48px;
     max-width: 55vw;
     margin-left: auto;
     margin-right: auto;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
 }
 .card h1 {
     margin-bottom: 25px;
@@ -95,53 +76,14 @@ span {
 
 /* Reponsive Image CSS */
 .img-fluid {
-    max-width: 30%;
+    max-width: 30% !important;
 }
 #briphoto {
     border: 5px solid;
     border-image-source: linear-gradient(45deg, rgb(204, 238, 255), rgb(247, 204, 255));
     border-image-slice: 1;
 }
-/* Footer CSS */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-footer .bg-dark {
-    margin-bottom: 0;
-    height: 115px;
-}
-footer p {
-    text-align: center;
-    /* margin-top: 25px; */
-    font-size: 12px;
-    margin-bottom: 0;
-}
-#linkedin {
-    color: rgb(247, 204, 255);
-}
-#linkedin:hover, #tele:hover {
-    color: rgb(232, 131, 250)
-}
-.socialIcon {
-    text-align: center;
-    display: block; 
-    color: #17a2b8;
-    margin: 5px;
-    font-size: 35px;
-}
-footer section {
-    display: flex;
-}
 
-#github {
-    margin-left: auto;
-}
-#tele {
-    margin-right: auto;
-    color: rgb(247, 204, 255);
-}
 
 @media (max-width: 2024px) {
     .logodiv .leftlogo, .leftlogo span {
@@ -154,6 +96,11 @@ footer section {
     .logodiv .leftlogo, .leftlogo span {
         margin-left: 0;
     }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
 }
 
 
@@ -162,6 +109,11 @@ footer section {
     .card {
         margin: 15px;
         max-width: 100%;
+    }
+    .flex-container {
+        max-width: 60vw;
+        min-height: 85vh;
+        overflow: auto;
     }
     .logoimg {
         display: block;
@@ -172,11 +124,8 @@ footer section {
         display: block;
         margin-left: 160px;;
     }
-    /* .logodiv .leftlogo, .leftlogo span {
-        margin-left: 0;
-    } */
     .lastrow {
-        margin-bottom: 150px;
+        /* margin-bottom: 150px; */
     }
     .logcol {
         max-width: 300px;
@@ -203,20 +152,13 @@ footer section {
     .navbar ul{
         flex-direction: row;
     }
-    /* .navbar-brand {
-        padding-bottom: .8125rem;
-        
-    } */
     .navbar ul > li {
         margin-left: 12px;
     }
 } 
 /* Media Queries for Responsive Web Design - 640px Max-Width */
 @media (max-width: 640px) {
-    .card {
-        margin: 15px;
-        max-width: 734px;
-    }
+ 
     .col-md-12 {
         margin-top: 9px;
     } 
@@ -261,3 +203,5 @@ footer section {
     }
     
 }
+
+

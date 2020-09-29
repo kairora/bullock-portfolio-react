@@ -1,12 +1,39 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import '../../App.css';
 
-function Header() {
+
+export default () => {
+  const location = useLocation();
 
   return (
-    <header className="header">
-      <h1>Brianna Bullock</h1>
+    <header>
+      <Link className="navbar-brand" to="/">
+          <h1 className="bg-info text-white">Brianna Bullock</h1>
+      </Link>
+      <ul className="nav">
+        <li className="nav-item">
+          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
+            About
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/portfolio"
+            className={location.pathname === "/about" ? "nav-link active" : "nav-link"} >
+            Portfolio
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/contact"
+            className={location.pathname === "/blog" ? "nav-link active" : "nav-link"} >
+            Contact
+          </Link>
+        </li>
+      </ul>
     </header>
   );
 }
 
-export default Header;
+
