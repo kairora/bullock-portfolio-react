@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css",
-    "main.js": "/bullock-portfolio-react/static/js/main.ab6c8d38.chunk.js",
-    "main.js.map": "/bullock-portfolio-react/static/js/main.ab6c8d38.chunk.js.map",
+    "main.js": "/bullock-portfolio-react/static/js/main.5e22dc80.chunk.js",
+    "main.js.map": "/bullock-portfolio-react/static/js/main.5e22dc80.chunk.js.map",
     "runtime-main.js": "/bullock-portfolio-react/static/js/runtime-main.c3a454e5.js",
     "runtime-main.js.map": "/bullock-portfolio-react/static/js/runtime-main.c3a454e5.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.c72ef2e5.chunk.js": "/bullock-portfolio-react/static/js/2.c72ef2e5.chunk.js",
     "static/js/2.c72ef2e5.chunk.js.map": "/bullock-portfolio-react/static/js/2.c72ef2e5.chunk.js.map",
     "index.html": "/bullock-portfolio-react/index.html",
-    "precache-manifest.091794c55d0519faaadec953f0dd9d19.js": "/bullock-portfolio-react/precache-manifest.091794c55d0519faaadec953f0dd9d19.js",
+    "precache-manifest.dcb466b5eb061cb3a3f13be47e8e8849.js": "/bullock-portfolio-react/precache-manifest.dcb466b5eb061cb3a3f13be47e8e8849.js",
     "service-worker.js": "/bullock-portfolio-react/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/bullock-portfolio-react/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.230550b8.chunk.css.map": "/bullock-portfolio-react/static/css/main.230550b8.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.c72ef2e5.chunk.js",
     "static/css/main.230550b8.chunk.css",
-    "static/js/main.ab6c8d38.chunk.js"
+    "static/js/main.5e22dc80.chunk.js"
   ]
 }
